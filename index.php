@@ -101,6 +101,31 @@
 // print_r($groupThree);
 
 
+// Multi-dimensional arrays
+
+// $blogs = [
+//     ['title'=>'mario party', 'author'=>'mario', 'content'=>'lorem','likes'=>30],
+//     ['mario kart', 'toad', 'lorem', 40],
+//     ['zelda', 'link', 'lorem', 50]
+// ];
+
+// print_r($blogs[1][1]);
+
+// $blogs = [
+//     ['title'=>'mario party', 'author'=>'mario', 'content'=>'lorem','likes'=>30],
+//     ['title'=>'mario kart', 'author'=>'toad', 'content'=>'lorem', 'likes'=>40],
+//     ['title'=>'zelda', 'author'=>'link', 'content'=>'lorem', 'likes'=>50]
+// ];
+
+// echo $blogs[2]['author'];
+// echo count($blogs);
+// $blogs[] = ['title'=>'castle party', 'author'=>'william', 'content'=>'lorem','likes'=>60];
+// print_r($blogs);
+// $popped = array_pop($blogs);
+
+// print_r($popped);
+
+
 ?>
 
 <!DOCTYPE html>
