@@ -26,10 +26,8 @@
 
 // NUMBERS
 
-$radius = 25;
-$pi = 3.14;
-
-
+// $radius = 25;
+// $pi = 3.14;
 
 // basic - *, /, +, -, **
 
@@ -39,14 +37,10 @@ $pi = 3.14;
 
 // echo 2 * (4 + 9) / 3;
 
-
-
 // increment & decrement operators
 
 // echo $radius++;
 // echo $radius;
-
-
 
 // shorthand operators
 
@@ -60,6 +54,53 @@ $pi = 3.14;
 // echo floor($pi);
 // echo ceil($pi);
 // echo pi();
+
+// ARRAYS
+
+// Indexed arrays
+
+// $peopleOne = ['shaun', 'cristal', 'ryu'];
+// echo $peopleOne[1];
+
+// $peopleTwo = array('ken', 'chun-li');
+// echo $peopleTwo[1];
+
+// $ages = [10, 20, 30, 40];
+// print_r($ages);
+
+// $ages[1] = 25;
+// print_r($ages);
+
+// $ages[] = 60;
+// print_r($ages);
+
+// array_push($ages, 70);
+// print_r($ages);
+
+// echo count($ages);
+
+// $peopleThree = array_merge($peopleOne, $peopleTwo);
+// print_r($peopleThree);
+
+
+// Associative arrays(key and value pairs)
+
+// $groupOne = ['john'=> 'black', 'mary'=>'red', 'charles' =>'brown'];
+// echo $groupOne['mary'];
+// print_r($groupOne);
+
+// $groupTwo = array('mark' => 'green', 'rachel' => 'yellow');
+// print_r($groupTwo);
+
+// $groupTwo['paul'] = 'pink';
+// print_r($groupTwo);
+
+// echo count($groupOne);
+
+// $groupThree = array_merge($groupOne, $groupTwo);
+// print_r($groupThree);
+
+
 ?>
 
 <!DOCTYPE html>
