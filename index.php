@@ -130,7 +130,7 @@
 
 // For loops
 
-$people = ['mel', 'bule', 'grey', 'proa'];
+// $people = ['mel', 'bule', 'grey', 'proa'];
 
 // for($i = 0; $i < count($people); $i++){
 //     echo $people[$i] . '<br />';
@@ -177,14 +177,50 @@ $people = ['mel', 'bule', 'grey', 'proa'];
 // echo 'mario' == 'mario';
 // echo 'mario' == 'Mario';
 
-
 // Loose vs strict comparison
 
 // echo 5 == '5';
 // echo 5 === '5';
-
 // echo true == "1";
 // echo false == "";
+
+
+// CONDITIONAL STATEMENTS
+
+// $price = 20;
+
+// if($price < 10){
+//     echo 'the condition is met';
+// } elseif ($price < 30){
+//     echo 'else if condition met';
+
+// } else {
+//     echo 'condition not met';
+// }
+
+$products = [
+    ['name' => 'shiny star', 'price' => 20],
+    ['name' => 'green shell', 'price' => 10],
+    ['name' => 'red shell', 'price' => 15],
+    ['name' => 'gold coin', 'price' => 5],
+    ['name' => 'lightning bolt', 'price' => 40],
+    ['name' => 'banana skin', 'price' => 2]
+];
+
+foreach($products as $product){
+    // if($product['price'] < 15 && $product['price'] > 2){
+    //     echo $product['name'] .'<br />';
+    // }
+
+    if($product['price'] > 20 || $product['price'] < 10){
+        echo $product['name'] .'<br />';
+    }
+
+
+
+}
+
+
 
 // ?>
 
@@ -205,7 +241,16 @@ $people = ['mel', 'bule', 'grey', 'proa'];
 
     <?php } ?>
 </ul> -->
+<div>
+    <!-- <ul>
+        <?php foreach($products as $product){ ?>
 
-    
+            <?php if($product['price'] > 15){ ?>
+            <li><?php echo $product['name']; ?></li>
+            <?php } ?>
+        <?php } ?>
+
+    </ul> -->
+</div>
 </body>
 </html>
