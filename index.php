@@ -212,9 +212,17 @@ foreach($products as $product){
     //     echo $product['name'] .'<br />';
     // }
 
-    if($product['price'] > 20 || $product['price'] < 10){
-        echo $product['name'] .'<br />';
+    // if($product['price'] > 20 || $product['price'] < 10){
+    //     echo $product['name'] .'<br />';
+    // }
+
+    if($product['name'] === 'lightning bolt'){
+    break;
     }
+    if($product['price'] > 15){
+        continue;
+    }
+    echo $product['name'] . '<br />';
 
 
 
