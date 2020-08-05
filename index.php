@@ -164,8 +164,12 @@ $people = ['mel', 'bule', 'grey', 'proa'];
 
 // Booleans
 
-echo 5 < 10;
-echo 5 == 10;
+// echo 5 < 10;
+// echo 5 == 10;
+echo 10 == 10;
+echo 5 != 0;
+echo 5 <= 5;
+echo 5 <= 5;
 
 // ?>
 
