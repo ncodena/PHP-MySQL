@@ -183,6 +183,9 @@ $people = ['mel', 'bule', 'grey', 'proa'];
 // echo 5 == '5';
 // echo 5 === '5';
 
+// echo true == "1";
+// echo false == "";
+
 // ?>
 
 <!DOCTYPE html>
