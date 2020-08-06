@@ -288,6 +288,12 @@
 // sayBye($name);
 // echo $name;
 
+// INCLUDE AND REQUIRE
+
+// include('group.php');
+// require('group.php');
+// echo 'end of php';
+
 // ?>
 
 <!DOCTYPE html>
@@ -317,6 +323,8 @@
         <?php } ?>
 
     </ul> -->
+
+    
 </div>
 </body>
 </html>
